@@ -16,12 +16,7 @@ class Solution(object):
         
         return total
 
-# Example usage:
+# Example usage with user input:
 solution = Solution()
-print(solution.romanToInt("III"))      # Output: 3
-print(solution.romanToInt("LVIII"))    # Output: 58
-print(solution.romanToInt("MCMXCIV"))  # Output: 1994
-
-
-
-
+user_input = input("Enter a Roman numeral: ")
+print(solution.romanToInt(user_input))
